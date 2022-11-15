@@ -1,0 +1,45 @@
+.container {
+  max-width: 48rem;
+  margin: -1rem auto 0;
+  padding: 0 1rem;
+}
+
+.info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 4rem 0 1.5rem;
+}
+
+.info > div {
+  display: flex;
+  gap: 0.5rem
+}
+
+.info span {
+  font-size: 0.875rem;
+  font-weight: bold;
+}
+
+.info .created {
+  color: var(--blue);
+}
+
+.info .complete {
+  color: var(--purple);
+}
+
+.info .total {
+  background: var(--gray-400);
+  color: var(--gray-200);
+
+  font-size: 0.75rem;
+  font-weight: bold;
+
+  height: 1.25rem;
+  padding: 0 0.5rem;
+  border-radius: 0.625rem;
+  
+  display: flex;
+  align-items: center;
+}
